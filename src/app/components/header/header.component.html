@@ -1,0 +1,24 @@
+<header class="header">
+  <nav class="nav-container">
+    <a href="/" class="nav-logo">Priscila Pacheco</a>
+    <button
+      class="nav-toggle"
+      (click)="toggleMenu()"
+      [class.is-active]="isMenuOpen"
+      aria-label="Abrir menu">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+    <ul class="nav-menu" [class.is-open]="isMenuOpen">
+      <li><a href="#services" (click)="toggleMenu()">Serviços</a></li>
+      <li><a href="#about" (click)="toggleMenu()">Sobre Mim</a></li>
+      <li><a href="#packages" (click)="toggleMenu()">Pacotes</a></li>
+      <li>
+        <a href="https://wa.me/5548988661571?text=Ol%C3%A1%2C%20vim%20pelo%20seu%20site." target="_blank" class="cta-button">
+          Vamos Conversar
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>

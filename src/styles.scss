@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+$primary-color: #d62976;
+$secondary-color: #f77737;
+$text-color: #333;
+$background-light: #fafafa;
+$white: #ffffff;
