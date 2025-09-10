@@ -51,6 +51,20 @@
 
   .copyright {
     text-align: left;
+    font-size: 1rem;
+
+    p {
+      margin: 0;
+
+      a {
+        color: $white;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 
   .social-links a:hover {
